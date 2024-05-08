@@ -5,3 +5,5 @@ PAGINA CREADA PARA MI NEGOCIO PERSONAL, VENTA DE ROPA DEPORTIVA LA CUAL PUEDA SA
 ## soy oscar estoy aprendiendo a programar desde cero##
 
 nueva clase, probando la sincronizacion de rama
+
+- Aprendiendo a hacer trabajos en equipo
