@@ -153,6 +153,7 @@ h4 {
     padding: 20px 120px;
     background-color: #f0f0f0;
 }
+
 .jumbotrom img {
     max-height: 600px;
 }
@@ -183,6 +184,7 @@ h4 {
 .flex {
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 
 }
 
@@ -191,15 +193,20 @@ h4 {
 }
 
 .etiquetas {
-    display: flex;
-    padding-top: 5px;
-    flex: 30px;
-    align-items: center;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding: right 20px;
+    ;
+    gap: 20px
 }
 
-.margenes {
-    margin: 20px 20px 20px 20px;
+
+.pad {
+    padding: 10px 10px 10px 20px;
+
 }
 
 .fondo {
@@ -237,14 +244,25 @@ h4 {
 }
 
 .ventas {
-
-    display: flex;
-    max-width: 99%;
-    max-height: 99%;
-
+display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    
     gap: 30px;
-
 }
+.ventas > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ventas img{
+    object-fit:contain ;
+    height: 300px;
+}
+
+
 
 .boton {
     padding: 10px 10px;
