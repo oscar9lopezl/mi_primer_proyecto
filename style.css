@@ -158,28 +158,12 @@ h4 {
     max-height: 600px;
 }
 
-.izquierda {
-    text-align: left;
-}
-
-.derecha {
-    max-width: 100%;
-    height: auto;
 
 
 
-}
-
-.textoju {
-
-    justify-content: center;
-}
 
 
-.mujer {
-    float: right;
-    padding-top: -300px;
-}
+
 
 .flex {
     display: flex;
@@ -188,9 +172,6 @@ h4 {
 
 }
 
-.pp {
-    color: white;
-}
 
 .etiquetas {
     display: grid;
@@ -217,31 +198,12 @@ h4 {
 
 }
 
-.item {
-    flex: 1;
-}
 
 
 
 
 
-.ropa {
-    display: flex;
-    border: solid black;
-    margin-top: 20px;
-    padding-left: 30px;
-    flex-grow: 1;
-    justify-content: center;
 
-}
-
-
-.imagenes {
-    width: 20vw;
-    height: 50vh;
-
-    margin-top: 20px;
-}
 
 .ventas {
 display: flex;
@@ -279,89 +241,69 @@ display: flex;
 
 }
 
-.conte {
 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    height: 100vh;
-    width: 33vw;
-    padding: 20px 40px 20px 20px;
-    margin: 20px 40px 20px 20px;
-}
 
-.boton2 {
-    padding: 15px 15px;
-    border-radius: 5px;
-    border: solid 8px red;
-    font-family: 'Segoe UI', 'Times New Roman', Times, serif;
-    box-shadow: 5px 5px 5px var(--color-shadow);
-    color: rgb(228, 18, 18);
-    font-size: 19px;
-    font-weight: 500;
-    background-color: red;
-
-}
 
 .footer {
-
-    padding-left: 600px;
-
-
-}
-
-.redsocil {
     display: flex;
-    align-items: center;
-
-
-}
-
-.foot__img {
-    height: 5vh;
-    width: 5vw;
-    align-items: center;
-    justify-content: right;
-
-
-}
-
-.foot__imgc {
-    height: 5vh;
-    width: 5vw;
-    align-items: center;
     justify-content: center;
-
-
-}
-
-.footer__redsociales {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+ 
     gap: 50px;
 }
 
-.descu {
+.footer img {
+    max-height: 32px;
+    
+}
+
+.footer__hijo {
     display: flex;
-    flex-direction: column;
-    padding-top: 40px;
-    justify-content: left;
-    margin-right: 600px;
+    justify-content: center;
+    align-items: center;
+   
+    
+    background-color: transparent;
+    gap: 50px;  
+}
+
+
+
+
+
+.descu {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 120px;
+    background-color:transparent;
+}
+
+.descuh2 {
+    color: black;
+    font-size: 66px;
+    font-weight: 700;   
+}
+.descu img{
+    max-height: 600px;  
+   
+}
+
+.descu >p {
+padding:1px 660px 30px 90px; ;
 }
 
 .let {
     color: black;
-    font-size: 76px;
+    font-size: 66px;
     font-weight: 700;
-    padding-left: 30px;
+   padding: 60px 660px 30px 90px;
 }
 
 .ppp {
     padding-left: 30px;
-    text-align: left;
+    
 }
 
 .rojo {
@@ -386,14 +328,15 @@ display: flex;
 
 .contened {
     display: flex;
-
-    text-align: left;
-    padding-top: 90px;
-    height: 100vh;
-    width: 98vw;
-    padding-left: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 120px;
+    background-color:transparent;
 }
 
+.contened img{
+    max-height: 600px;   
+}
 .imagen4 {
     float: inline-end;
     width: 80vw;
@@ -429,12 +372,18 @@ display: flex;
 }
 
 .conenvio {
-
-    text-align: center;
-    height: 80vh;
-    width: 98vw;
-
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    background-color:transparent;
 }
+
+.conenvio img{
+    max-height: 500px; 
+}
+
 
 .enviotex {
     margin-top: 60px;
